@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    font-family:  'Roboto', sans-serif;
+}
+body{
+    color:white;
+    
+}
+h2
+{
+    font-size: 30px;
+    font-weight: 300px;
+    margin:10px;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    gap:3px;
+    margin-top: 20px;
+}
+.container > div{
+    cursor: pointer;
+    background-position: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background-image: fixed;
+}
+.container > div:hover
+{
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+.bg-1
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qscRF.img?w=768&h=512&m=6&x=8&y=93&s=1159&d=230");
+}
+.bg-2
+{
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qlSdE.img?w=534&h=300&m=6&x=210&y=113&s=957&d=256");
+}
+.bg-3
+{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qoS4u.img?w=534&h=280&m=6&x=268&y=114&s=108&d=108");
+}
+.bg-4
+{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qowMG.img?w=534&h=301&m=6") ;
+}
+.bg-5
+{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qo7lp.img?w=534&h=300&m=6");
+}
+.bg-6
+{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qoMAL.img?w=534&h=356&m=6&x=368&y=226&s=604&d=455");
+}
+.bg-7
+
+{   
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qoHkV.img?w=534&h=300&m=6");
+}
+.bg-8
+{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1qo50K.img?w=534&h=301&m=6");
+}
+.container div p a:hover
+{
+    color: rgb(25, 0, 255);
+}
+.container div p a
+{
+    color: white;
+    text-decoration: none;
+}
+.container div h2
+{
+    margin-right: 150px;
+    background-color: whitesmoke;
+    color: black;
+    opacity: 0.5;
+}
+.container > div:nth-of-type(1)
+{
+    grid-column: 1/3;
+    grid-row: span 2;
+    
+}
+.bg-4
+{
+    grid-row: span 2;
+}
+header h1
+{
+    text-align: center;
+    text-shadow: 7px 1px 4px rgba(0,0,0,0.6);
+    color: black;
+}
+.container div h2
+{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.container > div:hover h2
+{
+    visibility: hidden;
+}
